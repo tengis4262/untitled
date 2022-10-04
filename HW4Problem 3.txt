@@ -1,0 +1,22 @@
+3. If u = 2, v = 3, w = 5, x = 7, and y = 11, what is the value of each of the
+following expressions, assuming int variables? Do it manually to understand
+precedence rules.
+
+
+* u+v*w+x   Solve
+1. v*w -->  3*5=15
+2. u+(v*w) --> 2+15=17
+3. 17+x --> 17+7= 24
+
+
+* u+y%v*w+x Solve
+1. y%v --> 11%3 = 3
+2.3*w --> 3*5=15
+3. u+15 --> 2+15=17
+4. 17+x --> 17+7=24
+
+* u++/v + u++*w
+
+1. u++/3 --> 2/3
+2. u++*w --> 2*5=10
+3. 2/3 + 10 = 32/3
